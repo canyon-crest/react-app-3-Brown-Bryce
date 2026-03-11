@@ -9,3 +9,5 @@ import Card from './Card.jsx'
 function About() {
   <p>working</p>
 }
+
+export default About

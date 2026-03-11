@@ -10,11 +10,12 @@ import About from './about.jsx'
 
 
 function App() {
+  const  [page, setPage] = useState("about");
   return (
     <>
-      {/* <Nav /> */}
-      {/* <About /> */}
-      {/* <div>
+      <Nav setPage = {setPage}/>
+      {page === "about" && <About />}
+      <div>
       <Card name = "John" food = "Pizza"/>
       <Card name = "Jack" food = "Donuts"/>
       <Card name = "George" food = "Waffles"/>
@@ -28,20 +29,20 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <div className="card">
+      {/* <div className="card">
         { <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>}
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
-      </div>
+      </div> */}
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p> */}
+      </p>
 
     </>
   )
 }
 
-// export default App
+export default App

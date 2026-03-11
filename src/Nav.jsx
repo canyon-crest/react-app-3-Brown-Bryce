@@ -1,4 +1,3 @@
-import "./Nav.css"
 
 function Nav({ setPage }){
     return(
@@ -12,3 +11,5 @@ function Nav({ setPage }){
     )
 
 }
+
+export default Nav
