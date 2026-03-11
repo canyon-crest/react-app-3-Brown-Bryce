@@ -1,0 +1,14 @@
+import "./Nav.css"
+
+function Nav({ setPage }){
+    return(
+        <div>
+            <ul>
+                <li onClick={() => setPage("home")}>Home</li>
+                <li onClick={() => setPage("about")}>About</li>
+                <li> Contact</li>
+            </ul>
+        </div>
+    )
+
+}

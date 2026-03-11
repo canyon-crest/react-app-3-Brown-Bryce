@@ -1,0 +1,28 @@
+.rainbow_text_animated {
+
+    font-size: larger;
+    background: repeating-linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red, orange, yellow, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 4s linear infinite;
+    background-size: 400% 100%;
+ 
+}
+
+@keyframes rainbow_animation {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 94% 0;
+    }
+}
+
+.myCard{
+    border-style:solid;
+    border-radius: 4px;
+    border-color: black;
+    background-color: rgb(34, 117, 108);
+}
