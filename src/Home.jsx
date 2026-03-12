@@ -7,7 +7,7 @@ import React from 'react';
 import Nav from'./Nav.jsx'
 import About from './about.jsx'
 
-function Home(){
+function home(){
     return (
         <>
 <div>
@@ -38,3 +38,4 @@ function Home(){
 </>
     )
 }
+export default home
