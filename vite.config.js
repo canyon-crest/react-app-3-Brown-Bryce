@@ -6,5 +6,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: 'react-app-3-Brown-Bryce', //Replace with your GitHub repo name
+  base: '/', //Replace with your GitHub repo name
 });
