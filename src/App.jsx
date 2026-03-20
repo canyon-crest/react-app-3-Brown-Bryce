@@ -7,7 +7,7 @@ import React from 'react';
 import Nav from'./Nav.jsx'
 import About from './About.jsx'
 import Home from './Home.jsx'
-
+import New from './New.jsx'
 
 
 function App() {
@@ -18,8 +18,7 @@ function App() {
       {page === "Home" && <Home />}
       {page === "About" && <About />}
       {page === "Contact" && <Contact />}
-
-    {/* <Home /> */}
+      {page === "New" && <New />}
     </>
   )
 }
