@@ -3,7 +3,7 @@ import './about.css'
 function Contact() {
     return(
     <>
-  <p>How to contact me</p>
+  <h1>How to contact me</h1>
   <p>fakeemail905@gmail.com</p>
   <p>543-321-5156</p>
   <p>Instagram: @brucewang</p>

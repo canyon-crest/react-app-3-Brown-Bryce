@@ -1,4 +1,4 @@
-function footer(){
+function Footer(){
     return(
         <>
     <p>Are you enjoying this site</p>
@@ -6,4 +6,4 @@ function footer(){
     )
 }
 
-export default footer
+export default Footer
