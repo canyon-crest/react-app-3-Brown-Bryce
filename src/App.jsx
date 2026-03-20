@@ -7,7 +7,10 @@ import React from 'react';
 import Nav from'./Nav.jsx'
 import About from './About.jsx'
 import Home from './Home.jsx'
-import New from './New.jsx'
+import New from './new.jsx'
+import Contact from './contact.jsx'
+import Footer from './footer.jsx'
+
 
 
 function App() {
@@ -19,6 +22,7 @@ function App() {
       {page === "About" && <About />}
       {page === "Contact" && <Contact />}
       {page === "New" && <New />}
+      <Footer />
     </>
   )
 }

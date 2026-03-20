@@ -1,14 +1,13 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+
 import './about.css'
-import App from './App.jsx'
-import Card from './Card.jsx'
+
 
 
 function About() {
   return(
     <>
-  <p>Weclome to my Equations page</p>
+  <h1>This is my about page</h1>
+  <p>About me: I like physics... so here are some equations</p>
   <p>F=MA </p>
   <p>w=Mg</p>
   <p>P=Mv</p>
